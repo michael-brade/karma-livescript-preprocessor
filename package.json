@@ -1,24 +1,23 @@
 {
-  "name": "karma-coffee-preprocessor",
+  "name": "karma-livescript-preprocessor",
   "version": "0.3.0",
-  "description": "A Karma plugin. Compile coffee script on the fly.",
+  "description": "A Karma plugin. Compile livescript script on the fly.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-coffee-preprocessor.git"
+    "url": "git://github.com/kryptt/karma-livescript-preprocessor.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-preprocessor",
-    "coffee-script",
-    "coffee"
+    "livescript"
   ],
-  "author": "Vojta Jina <vojta.jina@gmail.com>",
+  "author": "Rodolfo Hansen <kryptt@gmail.com>",
   "dependencies": {
-    "coffee-script": "~1"
+    "livescript": "~1"
   },
   "peerDependencies": {
     "karma": ">=0.11.14"
@@ -35,14 +34,14 @@
     "load-grunt-tasks": "^3.2.0"
   },
   "contributors": [
+    "Vojta Jina <vojta.jina@gmail.com>",
     "Friedel Ziegelmayer <friedel.ziegelmayer@gmail.com>",
     "Niall Smart <niall@pobox.com>",
     "Zachary Wright Heller <zheller@gmail.com>",
-    "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
     "Michael Kebbekus <michael.kebbekus@goodeggs.com>",
     "dignifiedquire <dignifiedquire@gmail.com>",
     "Anthony Torres <anthony.torres@issinc.com>",
-    "ehuss <eric@huss.org>",
+    "Eric Huss <eric@huss.org>",
     "Isaac Shapira <fresheyeball@gmail.com>",
     "Johannes Würbach <johannes.wuerbach@googlemail.com>",
     "Kyle <kyle.zeeuwen@gmail.com>",
