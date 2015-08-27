@@ -29,7 +29,7 @@ var createLivescriptPreprocessor = function (args, config, logger, helper) {
     try {
       result = ls.compile(content, opts)
     } catch (e) {
-      log.error('%s\n  at %s:%d', e.message, file.originalPath, e.location.first_line)
+      log.error('%s\n  at %s:%d', e, file.originalPath)
       return done(e, null)
     }
 
