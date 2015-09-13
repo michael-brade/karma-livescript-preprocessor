@@ -1,6 +1,6 @@
 {
   "name": "karma-livescript-preprocessor",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A Karma plugin. Compile livescript script on the fly.",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kryptt/karma-livescript-preprocessor.git"
+    "url": "git://github.com/michael-brade/karma-livescript-preprocessor.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-preprocessor",
     "livescript"
   ],
-  "author": "Rodolfo Hansen <kryptt@gmail.com>",
+  "author": "Michael Brade <brade@kde.org>",
   "dependencies": {
     "livescript": "~1"
   },
@@ -31,6 +31,8 @@
     "grunt-conventional-changelog": "^1.2.2",
     "grunt-eslint": "^16.0.0",
     "grunt-npm": "0.0.2",
+    "karma": "^0.13.9",
+    "karma-livescript-preprocessor": "michael-brade/karma-livescript-preprocessor",
     "load-grunt-tasks": "^3.2.0"
   },
   "contributors": [
@@ -45,6 +47,7 @@
     "Isaac Shapira <fresheyeball@gmail.com>",
     "Johannes Würbach <johannes.wuerbach@googlemail.com>",
     "Kyle <kyle.zeeuwen@gmail.com>",
-    "Maksim Ryzhikov <rv.maksim@gmail.com>"
+    "Maksim Ryzhikov <rv.maksim@gmail.com>",
+    "Rodolfo Hansen <kryptt@gmail.com>"
   ]
 }
